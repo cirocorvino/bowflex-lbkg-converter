@@ -4,7 +4,7 @@ Mini web-app mobile-first per stimare il **ferro equivalente** di un setup su **
 
 L’app non tratta le libbre nominali stampate sulle Power Rods come peso direttamente confrontabile con bilancieri, manubri o cavi tradizionali. Parte invece dalla composizione delle aste, dal routing dei cavi, dalla maniglia, dall’esercizio e dalla temperatura delle Power Rods per ottenere una stima operativa in **lb/kg di ferro equivalente**.
 
-> **Stato attuale:** v0.9 — modello inferito e prudenziale, pensato per rendere coerente il diario allenamenti. Non è una misura certificata al manico.
+> **Stato attuale:** v0.9 — modello inferito e prudenziale, pensato per rendere coerente il diario allenamenti. Non è una misura certificata della resistenza effettiva all’impugnatura.
 
 ## App online
 
@@ -254,7 +254,7 @@ http://localhost:8000
 
 ## Limiti importanti
 
-Questo progetto fornisce una **stima di ferro equivalente**, non una misura diretta della forza al manico.
+Questo progetto fornisce una **stima di ferro equivalente**, non una misura diretta della resistenza effettiva all’impugnatura.
 
 Il valore reale può cambiare in funzione di:
 
