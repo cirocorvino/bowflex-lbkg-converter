@@ -10,7 +10,7 @@ L’app non tratta le libbre nominali stampate sulle Power Rods come peso dirett
 
 Apri l’app da iPhone, Android o desktop:
 
-**https://cirocorvino.github.io/bowflex-fitbod-converter/**
+**https://cirocorvino.github.io/bowflex-lbkg-converter/**
 
 Non richiede installazione, account o backend.
 
