@@ -4,7 +4,7 @@ Mini web-app mobile-first per stimare il **ferro equivalente** di un setup su **
 
 L’app non tratta le libbre nominali stampate sulle Power Rods come peso direttamente confrontabile con bilancieri, manubri o cavi tradizionali. Parte invece dalla composizione delle aste, dal routing dei cavi, dalla maniglia, dall’esercizio e dalla temperatura delle Power Rods per ottenere una stima operativa in **lb/kg di ferro equivalente**.
 
-> **Stato attuale:** v0.7 — modello inferito e prudenziale, pensato per rendere coerente il diario allenamenti. Non è una misura certificata al manico.
+> **Stato attuale:** v0.9 — modello inferito e prudenziale, pensato per rendere coerente il diario allenamenti. Non è una misura certificata al manico.
 
 ## App online
 
@@ -212,7 +212,7 @@ Contiene il dettaglio tecnico completo:
 Esempio:
 
 ```text
-Pushdown tricipiti — routing LS1 + LMS↑ + LI2 — Neutra ravvicinata / 15 cm — rods H 50 + M 50 per linea x1 — 18°C — Bowflex nominale 100 lb — ferro equivalente 62,4 lb / 28,3 kg
+Pushdown tricipiti — routing LS1 + LMS↓ + LI2 — Corda — rods M 50 per linea x2 — 28°C — Bowflex nominale 100 lb — ferro equivalente 39,4 lb / 17,9 kg
 ```
 
 ---
@@ -283,7 +283,7 @@ La conversione è quindi utile soprattutto per registrare sedute in modo coerent
 - [x] Coefficiente temperatura 15–35 °C
 - [x] Output leggibile e copiabile su mobile
 - [ ] Salvataggio automatico dell’ultimo setup nel browser
-- [ ] Preset specifici per esercizio
+- [x] Preset specifici per esercizio
 - [ ] Storico/calibrazione da diario allenamenti
 - [ ] Modalità calibrazione con dinamometro o bilancia a gancio
 - [ ] Profilo di resistenza per inizio / metà / fine ROM
