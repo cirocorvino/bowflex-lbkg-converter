@@ -11,7 +11,7 @@
 <body>
 <main>
 <div class="top">
-<h1>Bowflex ↔ Ferro equivalente <span class="pill">v0.8</span></h1>
+<h1>Bowflex ↔ Ferro equivalente <span class="pill">v0.9</span></h1>
 <div class="sub">Stima il ferro equivalente di una configurazione Bowflex Xtreme SE 2. Il routing usa LS + un solo ramo LM (LMI oppure LMS) + LI; la temperatura delle Power Rods entra come coefficiente separato.</div>
 </div>
 <div class="grid">
@@ -68,7 +68,7 @@
 <p class="muted">Stima operativa: il routing incorpora precarico e linea di tiro; il coefficiente termico modella la maggiore rigidità al freddo e la minore resistenza al caldo. Tutti i valori potranno essere calibrati con bilancia a gancio/dinamometro.</p>
 </section>
 </div>
-<section class="box" style="margin-top:14px"><h2>Coefficienti routing, prese e temperatura v0.8</h2><table id="coeffTable"></table><h2 style="margin-top:20px">Coefficienti maniglie e prese</h2><table id="handleTable"></table><h2 style="margin-top:20px">Coefficiente termico Power Rods</h2><table id="tempTable"></table></section>
+<section class="box" style="margin-top:14px"><h2>Coefficienti routing, prese e temperatura v0.9</h2><table id="coeffTable"></table><h2 style="margin-top:20px">Coefficienti maniglie e prese</h2><table id="handleTable"></table><h2 style="margin-top:20px">Coefficiente termico Power Rods</h2><table id="tempTable"></table></section>
 </main>
 <script>
 const R=[
@@ -110,7 +110,7 @@ wide:['Presa larga',1.06,'presa molto più larga delle spalle: leva più sfavore
 const E={
 row:['Rematore / Cable Row',.72,{ls:'LS1',lm:{family:'lmi',id:'LMI2'},li:'LI2'},'2','narrow'],
 lat:['Lat machine / Pulldown',.78,{ls:'LS2',lm:{family:'lms',id:'LMS_down'},li:'LI2'},'2','bar'],
-pushdown:['Pushdown tricipiti',.68,{ls:'LS1',lm:{family:'lms',id:'LMS_down'},li:'LI2'},'1','rope'],
+pushdown:['Pushdown tricipiti',.68,{ls:'LS1',lm:{family:'lms',id:'LMS_down'},li:'LI2'},'2','rope'],
 facepull:['Face pull',.58,{ls:'LS1',lm:{family:'lms',id:'LMS_down'},li:'LI2'},'2','rope'],
 fly:['Croci ai cavi',.62,{ls:'LS2',lm:{family:'lmi',id:'LMI3'},li:'LI2'},'2','wide'],
 custom:['Custom',.70,{ls:'LS1',lm:{family:'lmi',id:'LMI2'},li:'LI2'},'1','single']
